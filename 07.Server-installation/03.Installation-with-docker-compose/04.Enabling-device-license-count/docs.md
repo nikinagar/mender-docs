@@ -18,4 +18,4 @@ you can create a crontab entry in the following way:
 echo "7 3 * * * cd YOUR-SERVER-ROOT && docker-compose run --entrypoint /usr/bin/deviceauth-enterprise mender-device-auth license-count" | crontab -
 ```
 
-where `YOUR-SERVER-ROOT` stands for the sevrer root path where all the docker compose files are present.
+where `YOUR-SERVER-ROOT` stands for the server root path where all the docker compose files are present.
